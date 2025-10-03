@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Lecture 03 - Advanced Html - Intro to CSS"
+    />
+    <meta name="keywords" content="HTML, CSS, Advanced HTML, Intro to CSS" />
+    <meta name="author" content="Leap School" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lecture 03 - Advanced Html - Intro to CSS</title>
+  </head>
+  <body>
+    <header>
+      <h1>HTML Forms, Br, Hr, iframes</h1>
+    </header>
+    <main>
+      <section>
+        <form action="#">
+          <div>
+            <label> First Name </label>
+            <input
+              name="first_name"
+              type="text"
+              placeholder="Enter your first name"
+              required
+            />
+          </div>
+          <br />
+          <br />
+          <div></div>
+          <div>
+            <label> Email </label>
+            <input
+              name="email"
+              type="email"
+              placeholder="Enter your email"
+              required
+            />
+            <label> Last Name </label>
+            <input
+              name="last_name"
+              type="text"
+              placeholder="Enter your last name"
+              required
+            />
+          </div>
+          <div>
+            <label>Country</label>
+            <select name="Country" required>
+              <option value="nigeria">Nigeria</option>
+              <option value="software">Software Engineering</option>
+              <option value="kenya">Kenya</option>
+              <option value="south-africa">South Africa</option>
+              <option value="tanzania-cain">Tanzania</option>
+              <option value="leap">LeapSchool</option>
+            </select>
+          </div>
+          <div>
+            <label> Select your favorite foods</label>
+            <div>
+              <input
+                type="checkbox"
+                name="favorite_foods"
+                value="rice"
+                required
+              />
+              <label> Rice</label>
+            </div>
+            <div>
+              <input type="checkbox" name="favorite_foods" value="beans" />
+              <label> Beans</label>
+            </div>
+            <div>
+              <input type="checkbox" name="favorite_foods" value="moi-moi" />
+              <label> Moi-Moi</label>
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                name="favorite_foods"
+                value="jollof-rice"
+              />
+              <label> Jollof Rice</label>
+            </div>
+          </div>
+          <div>
+            <label> Select your favorite programming languages</label>
+            <div>
+              <input type="radio" name="favorite_language" value="javascript" />
+              <label> JavaScript</label>
+            </div>
+            <div>
+              <input type="radio" name="favorite_language" value="python" />
+              <label> Python</label>
+            </div>
+            <div>
+              <input type="radio" name="favorite_language" value="java" />
+              <label> Java</label>
+            </div>
+          </div>
+
+          <br />
+          <hr />
+          <div>
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </section>
+      <section>
+        <iframe
+          width="914"
+          height="514"
+          src="pdf/james.pdf"
+          title="Leap Lecture"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

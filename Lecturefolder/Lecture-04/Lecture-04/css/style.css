@@ -1,0 +1,27 @@
+/* * {
+  text-decoration: underline;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+
+} */
+/* .about_heading {
+  color: red;
+}
+
+#chinaza {
+  color: blue;
+}
+
+.about_heading,
+p,
+#chinaza {
+  text-align: center;
+} */
+body {
+  background-color: #f0ead2;
+}
+
+.about_heading {
+  color: #6c584c;
+}

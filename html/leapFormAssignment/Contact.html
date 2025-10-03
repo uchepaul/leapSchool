@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <header>
+        <h1> Contact Me </h3>
+    </header>
+    <Main>
+        <Section id="contact">
+            <form action="" method="post">
+                <label for="fullname"> Full Name</label>
+                <input 
+                type="text"
+                id="fullname"
+                name="fullname"
+                placeholder="enter your name"
+                required
+                /> 
+                <label for="email">Enter your email </label>
+                <input 
+                type="email"
+                id="email"
+                name="email"
+                placeholder="doe@gmail.com"
+                required
+                />
+                <label for="password">Password</label>
+                <input 
+                type="password"
+                id="contact"
+                name="password"
+                placeholder="chose a secure password"
+                
+                />
+                <label for="phone"> Tel </label>
+                <input 
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="+234 80 xxx5-0234"
+                
+                />
+                <label for="website"> website </label>
+                <input 
+                type="url"
+                id="website"
+                name="website"
+                placeholder="devtube.com"
+               />
+               <label for="experience"> Years of Experience </label>
+                <input 
+                type="number"
+                id="experience"
+                name="experience"
+                placeholder="2"
+                min="0" max="5"
+                />
+                <label for="dob"> Date of Birth </label>
+                <input 
+                type="date"
+                id="dob"
+                name="dob"
+                placeholder="23-4-1999"
+                />
+                <label for="time"> Preferred Conatact Time </label>
+                <input 
+                type="time"
+                id="time"
+                name="time"
+                />
+                <label for="join-month"> Joining Month </label>
+                <input 
+                type="month"
+                id="join-month"
+                name="join-month"
+                />
+                <label for="available-week"> Available Week</label>
+                <input 
+                type="week"
+                id="available-week"
+                name="available-week"
+                />
+                <label for="meeting"> Prefferred Meeting Date & Time</label>
+                <input 
+                type="datetime-local"
+                id="meeting"
+                name="meeting"
+                />
+                <label for="satisfaction-rating"> Satisfaction Rating </label>
+                <input 
+                type="range"
+                id="satisfaction-rating"
+                name="satisfaction-rating"
+                min="0" max="5"
+                />
+                <label for="favcolour"> Favourite Colour</label>
+                <input 
+                type="colour"
+                id="favcolour"
+                name="favcolour"
+                value="#ff0000"
+                />
+                <label for="profile-pic"> Upload Profile Picture </label>
+                <input 
+                type="file"
+                id="profile-pic"
+                name="profile-pic"
+                accept="image/*"
+                />
+                <input 
+                type="hidden"
+                id="form-id"
+                name="about-me-contact-form"
+                />
+                <label for="search">Search my Page </label>
+                <input 
+                type="search"
+                id="search"
+                name="search"
+                placeholder="search here"
+                />
+                <label for="subject">Subject </label>
+                <select id="subject" name="subject">
+                    <option value="">-- Select Topic --</option>
+                    <option value="general"> General Inquiry</option>
+                    <option value="project">Project Opportunity</option>
+                    <option value="feedback">Feedback</option>
+                </select>
+            </section>
+            <section id="contact">
+                <fieldset>
+                    <legend> Subscribe to Newsletter </legend>
+                    <label>
+                        <input
+                        type="radio"
+                        name="newsletter"
+                        value="yes" /> Yes
+                    </label>
+                    <legend> Subscribe to Newsletter </legend>
+                    <label>
+                        <input
+                        type="radio"
+                        name="newsletter"
+                        value="no" 
+                        checked/> No
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend for="message"> Your Message </legend>
+                    <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    placeholder="Write your message here !!!"
+                    required></textarea>
+                    </fieldset>
+                <button type="reset"> Reset Button </button>
+                <button type="submit"> Submit Button </button>
+            </br>
+                <label>
+                    <input
+                    type="checkbox"
+                    name="terms"
+                    required /> I agree to the terms and condition
+                </label>          
+            </form>
+        </Section>
+    </Main>
+    <footer>
+        <p>&copy; Leapschool 2025 Egbuniwe Uche Paul </p>
+    </footer>
+</html>

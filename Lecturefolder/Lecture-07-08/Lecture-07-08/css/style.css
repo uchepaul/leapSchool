@@ -1,0 +1,132 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 16px = 100%
+10px = 1000/16 = 62.5% */
+
+/* initially - 1rem = 16px */
+/* Now 1rem = 10px */
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem; /* 16px */
+  line-height: 3rem;
+  color: #5e6282;
+}
+
+.hero {
+  padding: 5rem 11.9rem;
+  background-image: url("../img/bg/hero_bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* overflow: hidden; */
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.hero-text-box {
+  padding: auto;
+  /* flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 300px; */
+  flex: 0 0 48%;
+}
+.hero-subheading {
+  color: #df6951;
+  font-size: 2rem; /* 20px */
+  font-weight: 600;
+}
+.hero-heading {
+  font-family: "Volkhov", serif;
+  font-size: 7.4rem; /* 84px */
+  font-weight: 600;
+  line-height: 7.9rem; /* 89px */
+  margin: 1.4rem 0;
+  color: #181e4b;
+}
+.hero-body {
+  font-size: 1.6rem;
+  line-height: 3rem;
+  font-weight: 500;
+}
+
+.button-container {
+  display: flex;
+  gap: 4.4rem;
+  margin-top: 3.2rem;
+}
+
+.button {
+  border: none;
+  background: transparent;
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.button--1 {
+  color: #fff;
+  padding: 1.8rem 2.7rem;
+  border-radius: 1rem;
+  background-color: #f1a501;
+  transition: all 0.8s ease-in-out;
+  cursor: pointer;
+  box-shadow: 0rem 2rem 3.5rem rgba(241, 165, 1, 0.15);
+}
+
+.button--1:hover {
+  background-color: #d49203;
+}
+
+.hero-container {
+  flex: 0 0 45%;
+}
+.hero-image {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+
+/* .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  border: 2px solid #000000;
+  margin: 2.4rem;
+  height: 90vh;
+} */
+
+/* .shape-1 {
+  background-color: #181e4b;
+  width: 300px;
+  height: 300px;
+  order: 4;
+}
+.shape-2 {
+  background-color: #df6951;
+  width: 300px;
+  height: 300px;
+  order: 3;
+}
+
+.shape-3 {
+  background-color: #87df51;
+  width: 300px;
+  height: 300px;
+  order: 2;
+} */

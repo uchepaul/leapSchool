@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.totalAmount {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: blue;
+}
+
+.container {
+  display: flex;
+  margin: 20px 0;
+  background-color: bisque;
+  padding: 20px 0;
+}
+
+.container-item {
+  display: flex;
+  width: 94vw;
+  gap: 600px;
+}
+
+.minus-button,
+.plus-button {
+  color: brown;
+  padding: 5px;
+  font-weight: 900;
+  font-size: x-large;
+}

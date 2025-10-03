@@ -1,0 +1,35 @@
+@import url(base.css);
+@import url(destination.css);
+@import url(footer.css);
+@import url(hero.css);
+@import url(services.css);
+@import url(subscription.css);
+@import url(testimonial.css);
+@import url(trip.css);
+
+/* LOGOS SECTION*/
+
+.logo-container {
+  margin: 8rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  max-width: 107rem;
+  height: 10rem;
+}
+
+/* Rsponsive Design mobile approach*/
+
+/* Large Destop Screens*/
+@media (min-width: 1401) {
+}
+/* Desktop  () */
+@media (max-width: 1400px) {
+}
+/* Tablet*/
+@media (max-width: 900px) {
+}
+/* Mobile */
+@media (max-width: 601px) {
+}

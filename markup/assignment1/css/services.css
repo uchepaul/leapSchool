@@ -1,0 +1,128 @@
+@import url(base.css);
+@import url(destination.css);
+@import url(footer.css);
+@import url(hero.css);
+@import url(logos.css);
+@import url(subscription.css);
+@import url(testimonial.css);
+@import url(trip.css);
+
+/* Main Session */
+
+main {
+  padding: 5rem 11.9rem;
+  overflow: hidden;
+}
+
+/*Service Section */
+
+.service {
+  padding: 5rem 0rem;
+  position: relative;
+}
+
+.service_absolute {
+  position: absolute;
+  top: 0rem;
+  right: -4rem;
+  z-index: -1;
+}
+
+.service-sub_heading {
+  display: block;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #5e6282;
+  margin-bottom: 0.7rem;
+}
+.service-heading {
+  text-align: center;
+  color: #14183e;
+  font-family: "Volkhov", serif;
+  font-size: 4.5rem;
+  font-weight: 700;
+}
+
+.service-container {
+  margin-top: 5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 9rem;
+}
+
+.service-box-container {
+  position: relative;
+  padding: 4rem;
+  border-radius: 3.6rem;
+  cursor: pointer;
+  transition: all 0.8s ease-in-out;
+}
+
+.service-box-container:hover {
+  background: #fff;
+  box-shadow: 1rem 3rem 4rem rgba(0, 0, 0, 0.1);
+}
+
+.service-box-container::before {
+  content: "";
+  width: 10rem;
+  height: 10rem;
+  background-color: #df6951;
+  border-top-left-radius: 3rem;
+  border-bottom-right-radius: 1rem;
+  display: block;
+  position: absolute;
+  bottom: -2rem;
+  left: -4rem;
+  z-index: -1;
+  opacity: 0;
+  transition: all 0.8s ease-in-out;
+}
+
+.service-box-container:hover::before {
+  opacity: 1;
+}
+
+.service-box-icon {
+  display: block;
+  height: 7rem;
+  margin: 0rem auto;
+  margin-bottom: 3rem;
+}
+.service-box-heading {
+  font-family: "Volkhov", serif;
+  line-height: auto;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #14183e;
+  text-align: center;
+}
+.service-box-content {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  color: #5e6282;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+/* Rsponsive Design mobile approach*/
+
+/* Large Destop Screens*/
+@media (min-width: 1401) {
+}
+/* Desktop  () */
+@media (max-width: 1400px) {
+}
+/* Tablet*/
+@media (max-width: 900px) {
+}
+/* Mobile */
+@media (max-width: 601px) {
+}

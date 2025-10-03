@@ -1,0 +1,272 @@
+@import url(base.css);
+@import url(destination.css);
+@import url(footer.css);
+@import url(logos.css);
+@import url(services.css);
+@import url(subscription.css);
+@import url(testimonial.css);
+@import url(trip.css);
+
+/*Hero Section*/
+
+.hero {
+  background-image: url(./img/Decore.png);
+}
+
+.nav_header {
+  display: flex;
+  justify-content: space-between;
+  width: 112rem;
+  height: 2.7rem;
+  color: #212832;
+  border: 1px solid #212832;
+  margin: 4rem auto 0 auto;
+}
+
+.nav_bar {
+  display: flex;
+  text-align: center;
+  list-style: none;
+  gap: 5rem;
+  transform: scaleY(0.5);
+}
+
+.nav_bar1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  width: 85rem;
+}
+
+.hero_content {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 13rem 0 13rem;
+  width: 120rem;
+  height: 76.4rem;
+}
+
+.hero_content_message {
+  position: relative;
+  width: 53rem;
+  height: 43.5rem;
+  color: #181e4b;
+}
+.hero_content_message h5 {
+  font-family: volkhov;
+  color: red;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 100%;
+  margin: 1rem;
+}
+
+.hero_content_message h1 {
+  font-family: volkhov;
+  font-weight: 800;
+  font-size: 8rem;
+  line-height: 8rem;
+}
+
+.hero_content_message p {
+  font-weight: 500;
+  font: size 16px;
+  line-height: 3rem;
+  margin: 1rem;
+}
+
+.hero-button {
+  display: flex;
+  gap: 4.4rem;
+}
+
+.button {
+  border: none;
+  background: transparent;
+  font-size: 1.7rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-1 {
+  display: block;
+  color: #fff;
+  padding: 1.8rem 2.7rem;
+  gap: 3rem;
+  border-radius: 1rem;
+  background-color: #f1a501;
+  transition: all 0.7s ease-in-out;
+  box-shadow: 0rem 2rem3.5rem rgb(241, 165, 1, 0.15);
+}
+
+.btn-2 {
+  display: flex;
+  gap: 2rem;
+  width: 16rem;
+  height: 5rem;
+  color: #686d77;
+  border: none;
+  transition: all 0.7s ease-in-out;
+  box-shadow: 0rem 2rem 3.5rem rgb(241, 165, 1, 0.15);
+}
+
+.btn-icon-message {
+  display: flex;
+  align-items: center;
+}
+
+.btn-icon:hover {
+  background-image: #181e4b;
+}
+
+.btn-1:hover {
+  background-color: #d49203;
+}
+
+.hero_content_image {
+  position: absolute;
+  width: 78.3rem;
+  height: 76.4rem;
+  right: 0;
+  transform: translate(-8%, 0%);
+  z-index: 1;
+}
+
+/* Rsponsive Design mobile approach*/
+
+/* Large Destop Screens*/
+@media (min-width: 1401) {
+}
+/* Desktop  () */
+@media (max-width: 1400px) {
+}
+/* Tablet*/
+@media (max-width: 900px) {
+}
+/* Mobile */
+@media (max-width: 601px) {
+  .hero {
+    background-image: url(./img/Decore.png);
+  }
+
+  .nav_header {
+    display: flex;
+    justify-content: space-between;
+    width: 112rem;
+    height: 2.7rem;
+    color: #212832;
+    border: 1px solid #212832;
+    margin: 4rem auto 0 auto;
+  }
+
+  .nav_bar {
+    display: flex;
+    text-align: center;
+    list-style: none;
+    gap: 5rem;
+    transform: scaleY(0.5);
+  }
+
+  .nav_bar1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    width: 85rem;
+  }
+
+  .hero_content {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 13rem 0 13rem;
+    width: 120rem;
+    height: 76.4rem;
+  }
+
+  .hero_content_message {
+    position: relative;
+    width: 53rem;
+    height: 43.5rem;
+    color: #181e4b;
+  }
+  .hero_content_message h5 {
+    font-family: volkhov;
+    color: red;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 100%;
+    margin: 1rem;
+  }
+
+  .hero_content_message h1 {
+    font-family: volkhov;
+    font-weight: 800;
+    font-size: 8rem;
+    line-height: 8rem;
+  }
+
+  .hero_content_message p {
+    font-weight: 500;
+    font: size 16px;
+    line-height: 3rem;
+    margin: 1rem;
+  }
+
+  .hero-button {
+    display: flex;
+    gap: 4.4rem;
+  }
+
+  .button {
+    border: none;
+    background: transparent;
+    font-size: 1.7rem;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  .btn-1 {
+    display: block;
+    color: #fff;
+    padding: 1.8rem 2.7rem;
+    gap: 3rem;
+    border-radius: 1rem;
+    background-color: #f1a501;
+    transition: all 0.7s ease-in-out;
+    box-shadow: 0rem 2rem3.5rem rgb(241, 165, 1, 0.15);
+  }
+
+  .btn-2 {
+    display: flex;
+    gap: 2rem;
+    width: 16rem;
+    height: 5rem;
+    color: #686d77;
+    border: none;
+    transition: all 0.7s ease-in-out;
+    box-shadow: 0rem 2rem 3.5rem rgb(241, 165, 1, 0.15);
+  }
+
+  .btn-icon-message {
+    display: flex;
+    align-items: center;
+  }
+
+  .btn-icon:hover {
+    background-image: #181e4b;
+  }
+
+  .btn-1:hover {
+    background-color: #d49203;
+  }
+
+  .hero_content_image {
+    position: absolute;
+    width: 78.3rem;
+    height: 76.4rem;
+    right: 0;
+    transform: translate(-8%, 0%);
+    z-index: 1;
+  }
+}

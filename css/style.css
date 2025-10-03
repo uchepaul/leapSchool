@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+body {
+  background-color: burlywood;
+}
+
+.navbar {
+  background-color: rgb(191, 185, 197);
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.5s, color 0.5s;
+  border-radius: 3rem;
+}
+
+.nav-links a:hover {
+  background-color: #555;
+  color: #ffd700;
+}

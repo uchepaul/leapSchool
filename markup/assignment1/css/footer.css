@@ -1,0 +1,63 @@
+@import url(base.css);
+@import url(destination.css);
+@import url(hero.css);
+@import url(logos.css);
+@import url(services.css);
+@import url(subscription.css);
+@import url(testimonial.css);
+@import url(trip.css);
+
+/* FOOTER */
+
+.footer {
+  font-size: 1.2rem;
+}
+
+.footer-container-grid-column {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin: 10rem 10rem 0 10rem;
+}
+
+.footer-container-grid-row {
+  display: grid;
+  grid-template-rows: 1fr;
+  text-align: center;
+}
+
+.footer-section1 h1 {
+  color: #181e4b;
+}
+
+.footer-section2 li,
+.footer-section3 li,
+.footer-section4 li {
+  list-style: none;
+}
+
+.footer-section1,
+.footer-section2 a,
+.footer-section3 a,
+.footer-section4 a {
+  text-decoration: none;
+  color: #5e6282;
+}
+
+.footer-container-grid-row {
+  color: #5e6282;
+}
+
+/* Rsponsive Design mobile approach*/
+
+/* Large Destop Screens*/
+@media (min-width: 1401) {
+}
+/* Desktop  () */
+@media (max-width: 1400px) {
+}
+/* Tablet*/
+@media (max-width: 900px) {
+}
+/* Mobile */
+@media (max-width: 601px) {
+}

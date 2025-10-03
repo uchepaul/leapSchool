@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Click Counter</title>
+    <style>
+      body {
+        text-align: center;
+        margin-top: 100px;
+        font-family: Arial;
+      }
+      #counterBtn {
+        padding: 10px 20px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+      #countDisplay {
+        font-size: 30px;
+        margin-top: 20px;
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Click Counter App</h1>
+    <button id="counterBtn">Click me!</button>
+    <div id="countDisplay">You've clicked 0 times.</div>
+
+    <script>
+      // ✅ Step 1: Create a variable to hold the count
+      let count = 0;
+
+      // ✅ Step 2: Get references to HTML elements
+      const button = document.getElementById("counterBtn");
+      const display = document.getElementById("countDisplay");
+
+      // ✅ Step 3: Define a function to update the count
+      function updateCounter() {
+        // Increase the count by 1
+        count = count + 1;
+
+        // Update the display text
+        display.textContent = "You've clicked " + count + " times.";
+      }
+
+      // ✅ Step 4: Add a click event listener to the button
+      button.addEventListener("click", updateCounter);
+    </script>
+  </body>
+</html>

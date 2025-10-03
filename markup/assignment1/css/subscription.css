@@ -1,0 +1,77 @@
+@import url(base.css);
+@import url(destination.css);
+@import url(footer.css);
+@import url(hero.css);
+@import url(logos.css);
+@import url(services.css);
+@import url(testimonial.css);
+@import url(trip.css);
+
+/* SUBSCRIPTION SECTION*/
+
+.subscritption-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 106rem;
+  height: 31rem;
+  margin: 3rem auto;
+  background-color: #f4f3f7;
+  border-radius: 2rem;
+  border-top-left-radius: 15rem;
+}
+
+.subscription-content {
+  position: relative;
+  width: 60rem;
+  text-align: center;
+  color: #5e6282;
+  font-weight: 600;
+  font-size: 2.2rem;
+}
+.subscription-style-icon {
+  position: absolute;
+  z-index: -1;
+  right: -35rem;
+}
+
+.subscription-form input[type="email"] {
+  margin-top: 5rem;
+  width: 55%;
+  padding: 1rem 2rem 1rem 2rem;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+.subscription-form-input::before {
+  content: "📧";
+  position: absolute;
+  left: 0rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #888;
+}
+
+.subscription-button {
+  padding: 1rem 2rem 1rem 2rem;
+  background-color: #ff6a5b;
+  border-radius: 0.6rem;
+  color: #fff;
+}
+
+/* Rsponsive Design mobile approach*/
+
+/* Large Destop Screens*/
+@media (min-width: 1401) {
+}
+/* Desktop  () */
+@media (max-width: 1400px) {
+}
+/* Tablet*/
+@media (max-width: 900px) {
+}
+/* Mobile */
+@media (max-width: 601px) {
+}

@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+body {
+  background-color: #fff8f8;
+  color: #333;
+}
+
+.navbar {
+  background-color: #fff;
+  display: flex;
+  padding: 1rem;
+  justify-content: right;
+}
+
+.nav-links {
+  display: flex;
+  gap: 5rem;
+  list-style: none;
+}
+
+#nav-links {
+  background-color: #e0e9e0;
+  padding: 1rem;
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  background: linear-gradient(to bottom right, #a10000, #cc0000);
+  color: white;
+  padding: 40px;
+  width: 40%;
+}
+
+.sidebar h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.sidebar p {
+  line-height: 1.6;
+  font-size: 1.1em;
+}
+
+.testimonial {
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+.testimonial span {
+  font-weight: normal;
+  font-size: 0.9em;
+  color: #ddd;
+}
+
+.form-section {
+  background-color: #fff0f0;
+  padding: 60px;
+  flex: 1;
+}
+
+.form-section h4 {
+  color: #333;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.form-section h1 {
+  font-size: 2.2em;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+input,
+select {
+  flex: 1;
+  padding: 14px;
+  border: none;
+  border-bottom: 3px solid #a10000;
+  background: #fff;
+  font-size: 1em;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #cc0000;
+}
+
+button {
+  padding: 14px;
+  background-color: #a10000;
+  color: white;
+  font-size: 1em;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 200px;
+}
+
+button:hover {
+  background-color: #cc0000;
+}

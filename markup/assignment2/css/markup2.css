@@ -1,0 +1,644 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+html {
+  font-size: 62.5%;
+  max-width: 144rem;
+  height: auto;
+}
+
+.digitalMakers-headercontainer {
+  background-color: black;
+  min-height: 78rem;
+  height: auto;
+  margin: 0 7.5rem 7.5rem 7.5rem;
+  border-bottom-left-radius: 4rem;
+  border-bottom-right-radius: 4em;
+}
+
+.digitalMakers-navbar {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.8rem;
+  padding-left: 7.5rem;
+  align-items: center;
+  line-height: 2rem;
+  color: white;
+  height: 10rem;
+}
+
+.digitalMakers-navbarcontent2 {
+  margin-right: 40rem;
+}
+
+.digitalMakers-navbarcontent3 {
+  display: flex;
+  position: relative;
+  z-index: 200;
+  gap: 5rem;
+  right: -2.5rem;
+}
+
+.digitalMakers-navbarcontent3-text {
+  display: flex;
+  width: 20rem;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #d95db0, #3344dc);
+  border-radius: 2.5rem;
+}
+
+.digitalMakers-navbarcontent3-img {
+  padding: 1rem;
+  border-radius: 3rem;
+  background-color: white;
+}
+
+/* Hide hamburger on desktop */
+.menu-icon {
+  font-size: 2.5rem;
+  cursor: pointer;
+  display: none;
+  z-index: 1001;
+}
+
+.digitalMakers-headersection1 {
+  display: flex;
+}
+
+.sectionHeader-container {
+  width: 60vw;
+}
+
+.sectionheader {
+  margin: 10rem 0 0 10rem;
+  font-size: 17rem;
+  line-height: 16rem;
+  letter-spacing: -0.4rem;
+  font-weight: 500;
+  color: white;
+}
+
+.section1-text {
+  display: flex;
+  margin: 5rem 0 0 10rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+  background-color: #efdad9;
+  align-items: center;
+  gap: 2rem;
+  line-height: 2rem;
+  width: 42rem;
+  border-radius: 2rem;
+}
+
+.section1img {
+  position: relative;
+  z-index: 100;
+  top: -10rem;
+  min-height: 78rem;
+  height: auto;
+  border-bottom-right-radius: 4em;
+}
+
+/* section2 Hedy Processes */
+
+.mainBodySection1-container {
+  width: 82vw;
+  min-height: 25rem;
+  height: auto;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+}
+
+.mainBodySection1-header {
+  font-weight: 500;
+  font-size: 5rem;
+  line-height: 7rem;
+}
+
+.mainBodySection1-text {
+  width: 34vw;
+  font-size: 1.8rem;
+  list-style: 2.8rem;
+  margin: auto;
+}
+
+/* section3 Wrap Section */
+
+.section3-wrapcontainer {
+  display: flex;
+  gap: 5rem;
+  border-radius: 2rem;
+}
+
+.section3-image {
+  position: relative;
+  left: -4rem;
+}
+
+.section3-offrewrap-header {
+  font-size: 4.4rem;
+  margin-top: 5rem;
+  font-weight: 500;
+}
+
+.section3-offrewrap-text {
+  font-size: 1.7rem;
+  margin: 2rem 0;
+  width: 60%;
+}
+
+.section3-wraplist {
+  font-size: 1.7rem;
+  list-style: none;
+  gap: 5rem;
+}
+
+.section3-button {
+  margin-top: 5rem;
+}
+
+.section3-wrapcontainer {
+  width: 86vw;
+  background-color: black;
+  color: white;
+  margin: auto;
+  min-height: 40rem;
+  height: auto;
+}
+
+.section3-image {
+  position: relative;
+  z-index: 100;
+}
+
+.section3-wraplist {
+  display: flex;
+}
+
+.section3-button {
+  padding: 1rem;
+  width: 30rem;
+  background: linear-gradient(to right, #d95db0, #3344dc);
+  border-radius: 2.5rem;
+}
+
+/* Section4 */
+
+.section4-container {
+  display: flex;
+  width: 90%;
+  margin: 5rem auto 0rem 1rem;
+}
+
+.section4-containerContent {
+  margin: 3rem;
+}
+
+.section4-containerHeader {
+  font-size: 4.4rem;
+  font-weight: 500;
+  line-height: 3.6rem;
+}
+
+.section4-containerText {
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  line-height: 2.8rem;
+}
+
+.section4button {
+  margin-top: 3rem;
+  padding: 1rem;
+  width: 30rem;
+  background: linear-gradient(to right, #d95db0, #3344dc);
+  border-radius: 2.5rem;
+  color: white;
+}
+
+/* Section5 */
+
+.section5img {
+  width: 130rem;
+  height: 39rem;
+  transform: rotate(-5deg);
+  z-index: 10;
+}
+
+/* Section 6 GrowthSection */
+
+.section6-growthSection {
+  display: flex;
+  align-items: center;
+  min-height: 75rem;
+  height: auto;
+}
+
+.section6-container-header {
+  font-size: 5.5rem;
+  font-weight: 500;
+  line-height: 6rem;
+  width: 70%;
+  margin: 10rem auto 4rem auto;
+  text-align: center;
+}
+
+.section6-container-text {
+  margin: 0rem auto;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  font-weight: 300;
+  font-style: light;
+  width: 80%;
+}
+
+.section6-container-button {
+  display: block;
+  width: 22rem;
+  color: white;
+  margin: 8rem auto 0rem auto;
+  padding: 1rem;
+  background: linear-gradient(to right, #d95db0, #3344dc);
+  border-radius: 2.5rem;
+}
+
+.section6-container-image2 {
+  position: relative;
+  top: 10rem;
+}
+
+/* Section 7 */
+
+.section7-logoSection {
+  background-color: #f4f4f4;
+  min-height: 50rem;
+  height: auto;
+}
+
+.logoheader {
+  padding: 5rem;
+  font-size: 4.2rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.logoimages {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 19rem;
+  height: 9rem;
+}
+
+/* Section 8 */
+
+.section8-Notreméthodologie {
+  margin: 10rem auto;
+  width: 116rem;
+  background-color: black;
+  color: #ffffff;
+  border-radius: 2rem;
+  min-height: 75rem;
+  height: auto;
+}
+
+.section8-header {
+  margin: 5rem 22rem;
+}
+
+.section8-subHeader {
+  padding: 5rem 0 2rem 0;
+}
+
+.section8-subHeader {
+  font-size: 5.6rem;
+  text-align: center;
+}
+
+.section8-headerText {
+  font-size: medium;
+  line-height: 2.5rem;
+}
+
+.section8-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: medium;
+  margin: 5rem 14rem;
+  gap: 3rem;
+  text-align: center;
+}
+
+.section8-content-image {
+  margin: 1rem;
+}
+
+.section8-content-text {
+  margin: 1rem;
+  line-height: 2rem;
+}
+
+/* Section9 */
+.section9-Derniersprojets {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 5rem;
+}
+.section9-content-header {
+  width: 32rem;
+  margin-top: 5rem;
+  font-size: 4.3rem;
+  font-weight: 500;
+  line-height: 3.6rem;
+}
+
+.section9-content-text {
+  margin-top: 2rem;
+  width: 32rem;
+  line-height: 3rem;
+  font-size: medium;
+}
+
+.section9-content-button {
+  margin-top: 10rem;
+  padding: 1rem;
+  width: 30rem;
+  background: linear-gradient(to right, #d95db0, #3344dc);
+  border-radius: 2.5rem;
+}
+
+/* Footer Section */
+
+.footer {
+  min-height: 25rem;
+  height: auto;
+  font-size: 1.2rem;
+  border: 8px solid;
+  border-image: linear-gradient(to bottom, #d95db0, #3344dc) 1;
+  border-bottom: none;
+}
+
+.footerLogo {
+  font-size: 2.5rem;
+  font-weight: 800;
+  background: linear-gradient(to right, #d95db0, #3344dc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer-container-grid-column {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin: 5rem 4rem 0 4rem;
+  justify-content: left;
+}
+
+.footer-container-grid-row {
+  display: grid;
+  grid-template-rows: 1fr;
+  margin: 4rem 4rem 0 4rem;
+}
+
+.footer-section1 h1 {
+  color: #181e4b;
+}
+
+.footer-section2 li,
+.footer-section3 li,
+.footer-section4 li {
+  list-style: none;
+}
+
+.footer-section2 a,
+.footer-section3 a,
+.footer-section4 a {
+  text-decoration: none;
+  color: #5e6282;
+  line-height: 2.4rem;
+}
+
+.footer-section4-button {
+  background: linear-gradient(to right, #d95db0, #3344dc 55%, white 45%);
+  padding: 7px;
+  border: 3px solid;
+  border-image: linear-gradient(to right, #d95db0, #3344dc) 1;
+}
+
+.footer-container-grid-row {
+}
+
+/* Rsponsive Design mobile approach*/
+
+/* Large Destop Screens*/
+@media (min-width: 1401) {
+}
+/* Desktop  () */
+@media (max-width: 1400px) {
+}
+/* Tablet*/
+@media (max-width: 900px) {
+}
+
+/* Mobile */
+@media (max-width: 501px) {
+  html {
+    font-size: 50%; /* scale down rem units */
+    max-width: 100%;
+    overflow-x: hidden;
+    border: 2px solid red;
+  }
+
+  .digitalMakers-headercontainer {
+    height: 79rem;
+    margin: 0;
+    padding: 2rem;
+  }
+
+  .digitalMakers-navbarcontent2,
+  .digitalMakers-navbarcontent3 {
+    display: none;
+    margin: 0rem;
+    padding: 1.5rem;
+    z-index: 1000;
+  }
+
+  .digitalMakers-navbarcontent2.active,
+  .digitalMakers-navbarcontent3.active {
+    display: flex;
+  }
+
+  .digitalMakers-navbarcontent3-img {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+    transform: scale(2.3);
+  }
+
+  .sectionheader {
+    margin: 20rem auto 0 auto;
+    font-size: 5rem;
+    line-height: 5.5rem;
+    text-align: center;
+  }
+
+  .section1-text {
+    margin: 2rem auto;
+    width: 90%;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    text-align: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .section1img {
+    width: 30%;
+    right: -4rem;
+  }
+
+  /* Section3 */
+  .section3-wrapcontainer {
+    flex-direction: column;
+    height: auto;
+    padding: 2rem;
+    gap: 2rem;
+  }
+
+  .section3-image {
+    left: 0;
+    width: 100%;
+    height: 30rem;
+  }
+
+  .section3-offrewrap-header {
+    font-size: 2.8rem;
+    text-align: center;
+  }
+
+  .section3-offrewrap-text {
+    width: 100%;
+    text-align: center;
+    font-size: 1.4rem;
+  }
+
+  .section3-wraplist {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  /* Section4 */
+
+  .section4-container {
+    position: relative;
+    flex-direction: column;
+    margin: 2rem auto;
+    width: 95%;
+  }
+
+  .section4-containerHeader {
+    font-size: 2.8rem;
+    text-align: center;
+  }
+
+  .section4-containerContent {
+    position: absolute;
+    top: 0rem;
+  }
+
+  .section4-containerContent2 {
+    position: absolute;
+    top: 55rem;
+  }
+
+  .section4img,
+  .section4img2 {
+    opacity: 0.7;
+  }
+
+  /* Section5 */
+  .section5img {
+    width: 100%;
+    height: auto;
+    transform: none;
+  }
+
+  /* Section6 */
+  .section6-growthSection {
+    flex-direction: column;
+    height: auto;
+    padding: 2rem;
+  }
+
+  .section6-container-header {
+    font-size: 3rem;
+    line-height: 4rem;
+    width: 100%;
+    margin: 2rem auto;
+  }
+
+  .section6-container-text {
+    width: 100%;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+  }
+
+  /* Section7 */
+  .logoimages {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.1rem;
+    margin: 2rem;
+    height: auto;
+  }
+
+  .logoContent {
+    margin-top: 3rem;
+  }
+
+  /* Section8 */
+  .section8-Notreméthodologie {
+    width: 95%;
+    height: auto;
+    margin: 2rem auto;
+    padding: 2rem;
+  }
+
+  .section8-header {
+    margin: 0rem;
+  }
+  .section8-content {
+    grid-template-columns: 1fr;
+    margin: 2rem auto;
+  }
+
+  /* Section9 */
+  .section9-Derniersprojets {
+    grid-template-columns: 1fr;
+    margin: 2rem auto;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .section9-content-header,
+  .section9-content-text {
+    width: 100%;
+    text-align: center;
+    margin: 1rem;
+  }
+
+  /* Footer */
+  .footer-container-grid-column {
+    height: auto;
+    grid-template-columns: 1fr;
+    margin: 2rem;
+    gap: 2rem;
+    text-align: center;
+  }
+}
